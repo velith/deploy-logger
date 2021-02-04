@@ -18,7 +18,7 @@ It assumes that you are using Github Pull Requests. Use the action during an aut
 
 ### `gcp_sa_key`
 
-**Required** A service account key to use for posting logs to a GCP repository. The project for which the service account belongs to will be used when posting logs.
+**Required** A service account key to use for posting logs to a GCP repository. The project for which the service account belongs to will be used when posting logs. The service account has to at least have the Log Writer role.
 
 ### `log_name`
 
